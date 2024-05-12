@@ -19,7 +19,7 @@ public class Homework {
     this.articleToRead = articleToRead;
     this.finalDate = finalDate;
   }
-
+//niepotrzebne gettery i settery - nie są nigdzie wykorzystywane
   public String getPracticalHomework() {
     return practicalHomework;
   }

@@ -10,7 +10,7 @@ public class Student {
   private String lessonId;
   private List<Homework> homework;
   private boolean hasInternet;
-
+// wzorzec Builder do tworzenia Studenta, ponieważ posiada on bardzo wiele pól i wiele konstruktorów o różnej ilości argumentów (można łatwo się pomylić)
   public Student(String name) {
     this.name = name;
   }
@@ -68,7 +68,7 @@ public class Student {
     this.homework = homework;
     this.hasInternet = hasInternet;
   }
-
+//niepotrzebne wskazywanie this
   public void doHomework(){
     if (hasInternet){
       this.homework.clear();
